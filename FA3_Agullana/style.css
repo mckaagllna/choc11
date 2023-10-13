@@ -1,0 +1,38 @@
+body {
+    background-image: url('https://w0.peakpx.com/wallpaper/115/408/HD-wallpaper-iceberg-minimalist-thumbnail.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Styling the heading (h1) */
+h1 {
+    text-align: center;
+    background-color: #C4A484;
+    font-family: 'Comic Sans', sans-serif;
+    border: 2px dotted brown;
+    padding: 15px;
+    width: 250px;
+    margin: 20px; /* Centered with 20px margin at the bottom */
+}
+
+/* Styling the paragraph (p) */
+p {
+    text-align: justify;
+    background-color: hsl(175, 10%, 50%);
+    font-style: italic;
+    padding: 20px;
+    border-width: 3px 10px 3px 5px; /* Different border styles on each side */
+    border-style: solid; /* You can choose different border styles here */
+    border-color: black;
+    width: 500px;
+}
+
+/* Styling the span element */
+span {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 0, 255); /* Blue in RGB format */
+    margin: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
