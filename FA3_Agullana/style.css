@@ -17,7 +17,7 @@ h1 {
 
 p {
     width: 500px;
-    background-color: hsl(120, 100%, 50%);
+    background-color: hsl(14, 55%, 57%);
     padding: 20px;
     border-top: 3px solid black;
     border-right: 3px dashed black;
@@ -30,7 +30,7 @@ p {
 span {
     font-weight: bold;
     font-style: italic;
-    color: rgb(0, 0, 255); /* Blue in RGB format */
+    color: rgb(0, 0, 255);
     margin: 2px;
     margin-left: 5px;
     margin-right: 5px;
