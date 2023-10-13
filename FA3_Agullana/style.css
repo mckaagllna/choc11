@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 /* Styling the heading (h1) */
