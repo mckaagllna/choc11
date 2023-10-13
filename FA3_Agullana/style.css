@@ -10,8 +10,8 @@ h1 {
     text-align: center;
     background-color: #C4A484;
     font-family: 'Comic Sans', sans-serif;
-    border: 2px dotted brown;
-    padding: 15px;
+    border: 2px dotted blue;
+    padding: 10px 15px;
     width: 250px;
     margin: 20px; /* Centered with 20px margin at the bottom */
 }
