@@ -4,7 +4,7 @@ body {
     background-position: center;
 }
 
-/* Styling the heading (h1) */
+
 h1 {
     text-align: center;
     background-color: #d3d3d3;
@@ -12,10 +12,9 @@ h1 {
     border: 2px dotted blue;
     padding: 10px 15px;
     width: 250px;
-    margin: 20px; /* Centered with 20px margin at the bottom */
+    margin: 20px; 
 }
 
-/* Styling the paragraph (p) */
 p {
     width: 500px;
     background-color: hsl(120, 100%, 50%);
@@ -28,7 +27,6 @@ p {
     font-style: italic;
 }
 
-/* Styling the span element */
 span {
     font-weight: bold;
     font-style: italic;
