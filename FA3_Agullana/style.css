@@ -19,14 +19,15 @@ h1 {
 
 /* Styling the paragraph (p) */
 p {
-    text-align: justify;
-    background-color: hsl(175, 10%, 50%);
-    font-style: italic;
-    padding: 20px;
-    border-width: 3px 10px 3px 5px; /* Different border styles on each side */
-    border-style: solid; /* You can choose different border styles here */
-    border-color: black;
     width: 500px;
+    background-color: hsl(120, 100%, 50%);
+    padding: 20px;
+    border-top: 3px solid black;
+    border-right: 3px dashed black;
+    border-bottom: 3px double black;
+    border-left: 3px dotted black;
+    text-align: justify;
+    font-style: italic;
 }
 
 /* Styling the span element */
