@@ -35,8 +35,16 @@
         }
     </style>
    </head>
-    <body>
-      <h1><marquee> Welcome to Computer Science 3!</marquee></h1>
+<body>
+    <h1><marquee> Welcome to Computer Science 3!</marquee></h1>
       <a href="FA3_Agullana/FA3_Agullana.html"> Next Page</a>
-    </body>
+    <div class="box" onclick="changeColor(this)">Click me to change my color!</div>
+    <script>
+        function changeColor(element) {
+            var colors = ['#e74c3c', '#f39c12', '#27ae60', '#8e44ad', '#2980b9', '#2c3e50'];
+            var randomColor = colors[Math.floor(Math.random() * colors.length)];
+            element.style.backgroundColor = randomColor;
+        }
+    </script>
+</body>
   </html>
