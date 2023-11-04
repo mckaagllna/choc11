@@ -20,11 +20,25 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center; /* Center the navigation links */
+    margin-top: 20px; /* Add margin to the top */
 }
 
 nav ul li {
     margin: 0 20px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding to create oblong shape */
+    border-radius: 50px; /* Create an oblong shape with border-radius */
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+
+nav ul li a:hover {
+    background-color: #45a049; /* Darken the background color on hover */
+}
 }
 
 .section {
