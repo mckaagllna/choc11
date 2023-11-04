@@ -8,13 +8,13 @@ body {
 header {
     background-color: #7cfc00; 
     color: white;
-    padding: 1rem 0; 
+    padding: 0.5rem 0; 
     text-align: center; 
-    font-size: 36px;
+    font-size: 12px;
 }
 
 .container {
-    max-width: 740px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 20px;
 }
