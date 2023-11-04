@@ -19,13 +19,12 @@ header {
     margin: 0 auto;
     padding: 20px;
 }
-
 nav {
-    background-color: #4CAF50; /* Green color for the oblong shape background */
-    border-radius: 15px; /* Reduce border-radius to make the oblong shape smaller */
-    padding: 8px; /* Reduced padding inside the oblong shape */
-    text-align: center; /* Center the text within the oblong shape */
-    margin-top: 20px; /* Add margin to the top */
+    background-color: #e0ffff; 
+    border-radius: 15px; 
+    padding: 8px; 
+    text-align: center; 
+    margin-top: 20px; 
 }
 
 nav ul {
