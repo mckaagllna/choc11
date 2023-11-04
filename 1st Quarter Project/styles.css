@@ -41,21 +41,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #45a049; /* Darken the background color on hover */
 }
-}
 
-.section {
-    color: white;
-    padding: 40px 0;
-    text-align: center;
-}
-
-.section h2 {
-    color: #4CAF50;
-}
-
-.section p {
-    color: #555;
-}
 
 a {
     color: #4CAF50;
