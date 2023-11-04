@@ -24,6 +24,9 @@ nav ul {
     display: flex;
     justify-content: center; /* Center the navigation links */
     margin-top: 20px; /* Add margin to the top */
+    background-color: #4CAF50; /* Green color for the oblong shape background */
+    border-radius: 25px; /* Border-radius to create an oblong shape */
+    padding: 10px; /* Padding inside the oblong shape */
 }
 
 nav ul li {
@@ -31,15 +34,12 @@ nav ul li {
 }
 
 nav ul li a {
-    display: inline-block;
-    padding: 10px 20px; /* Adjust padding to create oblong shape */
-    border-radius: 50px; 
-    background-color: #e0ffff;
-    color: black;
+    color: white;
     text-decoration: none;
+}
 
 nav ul li a:hover {
-    background-color: #45a049; /* Darken the background color on hover */
+    text-decoration: underline;
 }
 
 footer{
