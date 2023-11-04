@@ -18,18 +18,26 @@ header {
     margin: 0 auto;
     padding: 20px;
 }
+/* styles.css */
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center; /* Center the navigation links */
-    margin-top: 20px; /* Add margin to the top */
+/* ... (other styles) ... */
+
+nav {
     background-color: #4CAF50; /* Green color for the oblong shape background */
     border-radius: 25px; /* Border-radius to create an oblong shape */
     padding: 10px; /* Padding inside the oblong shape */
+    text-align: center; /* Center the text within the oblong shape */
+    margin-top: 20px; /* Add margin to the top */
+}
+
+nav ul {
+    list-style: none;
+    display: inline;
+    padding: 0;
 }
 
 nav ul li {
+    display: inline;
     margin: 0 20px;
 }
 
@@ -41,6 +49,8 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+/* ... (other styles) ... */
 
 footer{
     text-align: center;
