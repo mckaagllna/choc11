@@ -10,6 +10,7 @@ header {
     color: white;
     padding: 1rem 0.5rem; 
     text-align: center; 
+    font-family: sans-serif;
     font-size: 30px;
 }
 
@@ -21,8 +22,8 @@ header {
 
 nav {
     background-color: #4CAF50; /* Green color for the oblong shape background */
-    border-radius: 25px; /* Border-radius to create an oblong shape */
-    padding: 10px; /* Padding inside the oblong shape */
+    border-radius: 15px; /* Reduce border-radius to make the oblong shape smaller */
+    padding: 8px; /* Reduced padding inside the oblong shape */
     text-align: center; /* Center the text within the oblong shape */
     margin-top: 20px; /* Add margin to the top */
 }
@@ -46,7 +47,6 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
-
 footer{
     text-align: center;
     font-size: 9px;
