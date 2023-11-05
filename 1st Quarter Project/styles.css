@@ -12,6 +12,8 @@ body, html {
 }
 header {
     flex: 0 0 auto;
+}
+header {
     background-color: #7ED957;
     color: white;
     padding: 10px;
@@ -31,7 +33,7 @@ nav {
     border-radius: 15px;
     text-align: center;
     margin-top: 20px;
-    padding: 6px 10px;
+    padding: 0px 20px;
 }
 
 nav ul {
@@ -59,7 +61,6 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0 20px; /* Adjust padding to move shape edges closer to links */
 }
 
 .left-content {
