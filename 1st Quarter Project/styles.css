@@ -1,36 +1,38 @@
 body {
-    background-color: #49A351; 
+    background-color: #49A351;
     font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
+
 body, html {
     height: 100%;
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    margin: 0;
+    padding: 0;
 }
+
 header {
-    flex: 0 0 auto; /* Header won't grow or shrink */
-}
-header {
-    background-color: #7ED957; 
+    flex: 0 0 auto;
+    background-color: #7ED957;
     color: white;
-    padding: 10px; 
-    text-align: center; 
+    padding: 10px;
+    text-align: center;
     font-family: sans-serif;
     font-size: 12px;
 }
+
 .container {
-    min-height: 100vh; /* Set minimum height of container to 100% viewport height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
+
 nav {
-    background-color: #90E4C2; 
+    background-color: #90E4C2;
     border-radius: 15px;
-    text-align: center; 
-    margin-top: 20px; 
-    padding: 6px 10px; 
+    text-align: center;
+    margin-top: 20px;
+    padding: 6px 10px;
 }
 
 nav ul {
@@ -46,17 +48,19 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black; 
+    color: black;
     text-decoration: none;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
 }
+
 .company-info {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding: 0 20px; /* Adjust padding to move shape edges closer to links */
 }
 
 .left-content {
@@ -71,7 +75,14 @@ nav ul li a:hover {
 
 .main-content {
     text-align: center;
+    display: flex;
+    align-items: center;
 }
+
+.right-content {
+    text-align: right;
+}
+
 a {
     color: #4CAF50;
     text-decoration: none;
