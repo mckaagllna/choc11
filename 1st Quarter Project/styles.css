@@ -88,3 +88,27 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.home-content,
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #49A351;
+}
+
+.home-text,
+.about-text {
+    flex: 1;
+    text-align: left;
+}
+
+.home-image img,
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+}
