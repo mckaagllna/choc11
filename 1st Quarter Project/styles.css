@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    /* Header styles */
+    flex:0 0 auto;
     background-color: #7ED957;
     color: white;
     padding: 10px;
