@@ -61,7 +61,37 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
 
+.home-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home-image {
+    flex: 1;
+    text-align: center; /* Center the image horizontally */
+}
+
+.home-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.company-info {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    margin-right: 20px;
+}
 .home-content,
 .about-content {
     display: flex;
