@@ -4,7 +4,11 @@ body {
     margin: 0;
     padding: 0;
 }
-
+body, html {
+    height: 100%;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
 header {
     background-color: #7ED957; 
     color: white;
@@ -13,11 +17,10 @@ header {
     font-family: sans-serif;
     font-size: 12px;
 }
-
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
+    min-height: 100vh; /* Set minimum height of container to 100% viewport height */
+    display: flex;
+    flex-direction: column;
 }
 nav {
     background-color: #4CAF50; 
