@@ -57,12 +57,17 @@ nav ul li a:hover {
 }
 
 .main-content {
+    display: flex;
+    align-items: center;
+}
+
+.text-content {
     text-align: center;
+    margin-right: 20px;
 }
 
 .main-content img {
     width: 300px; /* Set the width of the image as needed */
-    margin-top: 20px;
 }
 footer{
     text-align: center;
