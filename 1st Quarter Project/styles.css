@@ -4,15 +4,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-header {
-    background-color: #7ED957;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Set font to Comic Sans */
-    font-size: 12px;
-}
 body, html {
     height: 100%;
     margin: 0;
@@ -20,8 +11,13 @@ body, html {
 }
 header {
     flex: 0 0 auto;
+    background-color: #7ED957;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 10px; /* Decreased font size */
 }
-
 .container {
     min-height: 100vh;
     display: flex;
