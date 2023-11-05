@@ -5,7 +5,7 @@ body {
     background-color: #49A351;
 }
 
-header {
+.header-home {
     flex:0 0 auto;
     background-color: #7ED957;
     color: white;
