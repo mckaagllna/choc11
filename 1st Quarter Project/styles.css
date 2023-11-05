@@ -13,10 +13,11 @@ header {
     flex: 0 0 auto;
     background-color: #7ED957;
     color: white;
-    padding: 5px;
+    padding: 10px 0; 
     text-align: center;
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-size: 10px; /* Decreased font size */
+    font-size: 12px;
+    height: 50px; 
 }
 .container {
     min-height: 100vh;
