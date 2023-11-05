@@ -6,12 +6,12 @@ body {
 }
 
 header {
-    background-color: #7cfc00; 
+    background-color: #90ee90; 
     color: white;
-    padding: 1rem 0.5rem; 
+    padding: 10px; 
     text-align: center; 
     font-family: sans-serif;
-    font-size: 24px;
+    font-size: 12px;
 }
 
 .container {
@@ -45,6 +45,24 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+}
+.company-info {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.main-content img {
+    width: 300px; /* Set the width of the image as needed */
+    margin-top: 20px;
 }
 footer{
     text-align: center;
