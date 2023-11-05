@@ -20,20 +20,23 @@ header {
     padding: 20px;
 }
 nav {
-    background-color: #90E4C2; 
-    border-radius: 15px; 
+    background-color: #4CAF50; 
+    border-radius: 15px;
     text-align: center; 
-    margin-top: 20px;
+    margin-top: 20px; 
+    padding: 6px 10px; 
 }
+
 nav ul {
     list-style: none;
     display: inline;
-    padding: 8px;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -46,6 +49,12 @@ nav ul li a:hover {
 }
 .company-info {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left-content {
+    display: flex;
     align-items: center;
 }
 
@@ -55,21 +64,7 @@ nav ul li a:hover {
 }
 
 .main-content {
-    display: flex;
-    align-items: center;
-}
-
-.text-content {
     text-align: center;
-    margin-right: 20px;
-}
-
-.main-content img {
-    width: 300px; /* Set the width of the image as needed */
-}
-footer{
-    text-align: center;
-    font-size: 9px;
 }
 a {
     color: #4CAF50;
