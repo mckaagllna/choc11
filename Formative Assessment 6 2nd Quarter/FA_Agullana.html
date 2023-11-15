@@ -1,64 +1,71 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<style>
-		a{
-			color: black;
+    <style>
+        a {
+            color: black;
+            background-color: cyan;
+            text-decoration: none;
+            border-style: solid;
+            border-color: cyan;
+            margin-right: 10px;;
+        }
+
+        a:visited {
+            color: orange;
+            background-color: pink;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: blue;
+            background-color: cyan;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: brown;
+            text-decoration: none;
+        }
+
+        #div1 {
+            border-style: solid;
+            border-color: red;
+            border: 10px solid red;
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+            margin-top: 10px;
 			background-color: transparent;
-			text-decoration: none;
-			}
-		a:hover{
-			color:  orange;
-			background-color:  #00ffff;
-			text-decoration: none;
-			}
-		a:active{
-			color: #00ffff;
+        }
+
+        #div2 {
+            border-style: dotted;
+            border-color: green;
+            border: 10px solid green;
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+            margin-top: 10px;
 			background-color: transparent;
-			text-decoration: none;
-			}
-		a:visited{
+        }
+
+        #div1:target {
+            background-color: orange;
+            color: red; 
+        }
+
+
+        #div2:target {
+            border-color: green;
+            border-style: dotted;
+			background-color: orange;
 			color: red;
-			background-color: transparent;
-			text-decoration: none;
-			}
-			
-		#div1{
-		border-style: solid;
-		border-color: cyan;
-		border: 2px solid cyan;
-		width: 7%;
-		height: 10%;
-		padding: 3%;
-		margin-top: 1%;
-		}
+        }
 		
-		#div2{
-		border-style: dotted;
-		border-color: cyan;
-		border: 2px solid cyan;
-		width: 7%;
-		height: 10%;
-		padding: 3%;
-		margin-top: 1%;
-		}
-		a{
-		border-style: solid;
-		border-color: cyan;
-		margin-right: 1%;
-		}
-		
-		#div1:target{
-		color: blue;
-		border-style: solid blue;
-		background-color: #00ffff;
-		}
-		#div2:target{
-		border: 10px dotted green;
-		border-width: 10px;
-		background-color: #cce6ff;
-		}
-		</style>
+    </style>
+</head
 		<body>
 		
 		<a href="#div1"> LINK1 </a>
@@ -67,5 +74,4 @@
 		<div id="div2"> DIV 2 </div>
 		
 		</body>
-	</head>
 </html
