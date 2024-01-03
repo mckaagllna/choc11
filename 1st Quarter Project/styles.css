@@ -120,3 +120,49 @@ footer{
     text-align: center;
     padding: 0px 20px;
 }
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.upper-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.lower-left {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 30px; 
+    height: 30px; 
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.sprite-label {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
