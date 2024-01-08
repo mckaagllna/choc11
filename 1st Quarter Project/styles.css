@@ -141,3 +141,7 @@ footer{
     border-radius: 5px;
     font-size: 12px;
 }
+
+iframe {
+    float:left;
+}
