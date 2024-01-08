@@ -4,7 +4,29 @@ body {
     padding: 0;
     background-color: #49A351;
 }
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
 
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
 .header-home {
     flex:0 0 auto;
     background-color: #7ED957;
@@ -28,14 +50,39 @@ body {
 }
 
 nav {
-    /* Navigation styles */
     background-color: #90E4C2;
     border-radius: 15px;
     text-align: center;
     margin-top: 20px;
     padding: 6px 10px;
 }
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
 
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
 nav ul {
     list-style: none;
     display: inline;
@@ -74,7 +121,7 @@ nav ul li a:hover {
 
 .home-image {
     flex: 1;
-    text-align: center; /* Center the image horizontally */
+    text-align: center; 
 }
 
 .home-image img {
@@ -120,28 +167,6 @@ footer{
     text-align: center;
     padding: 0px 20px;
 }
-
-.social-media {
-    margin-top: 20px;
-}
-
-.social-icon {
-    width: 30px; 
-    height: 30px; 
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.sprite-label {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-    background-color: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 12px;
-}
-
 iframe {
     float:left;
     margin-top: 60%;
